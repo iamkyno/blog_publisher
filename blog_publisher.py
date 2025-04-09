@@ -100,7 +100,7 @@ def publish_to_wordpress(title, content, meta_description, tag_ids):
     post_data = {
         "title": title,
         "content": content,
-        "status": "publish",
+        "status": "draft",
         "meta": {"yoast_wpseo_metadesc": meta_description},
         "tags": tag_ids
     }
