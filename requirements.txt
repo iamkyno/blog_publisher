@@ -1,0 +1,17 @@
+# Core dependencies
+fastapi>=0.110.0
+uvicorn[standard]>=0.27.0
+pydantic>=2.5.0
+
+# Content processing
+beautifulsoup4>=4.12.0    # For cleaning HTML/blog content
+python-dotenv>=1.0.0      # For environment variables
+textblob>=0.17.1          # For spell checking
+
+# AI integration (LLaMA 3 via Ollama or API)
+httpx>=0.27.0             # For making API calls
+tenacity>=8.2.3           # For retry logic if API fails
+
+# Utilities
+requests>=2.31.0
+loguru>=0.7.0             # For nice logging
