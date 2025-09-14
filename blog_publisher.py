@@ -114,11 +114,11 @@ def upload_blog(title: str, blog_content: str):
         raise HTTPException(status_code=400, detail="No content provided")
 
     cleaned_content = clean_content(blog_content)
-    formatted_content = process_with_llama3(cleaned_content)
+    checked_content = spell_check(cleaned_content)
+    formatted_content = process_with_llama3(checked_content)
     if not formatted_content:
         raise HTTPException(status_code=500, detail="LLaMA 3 processing failed")
 
-    checked_content = spell_check(formatted_content)
     internal_links = get_internal_links()
     final_content = insert_internal_links(formatted_content, internal_links)
 
