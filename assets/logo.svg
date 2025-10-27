@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="60" viewBox="0 0 240 60">
+  <rect width="240" height="60" rx="8" fill="#0b6fab"/>
+  <text x="20" y="38" font-family="Segoe UI, Roboto, Arial" font-size="24" fill="#fff">blog_publisher</text>
+  <circle cx="200" cy="30" r="16" fill="#fff"/>
+  <text x="194" y="36" font-family="Segoe UI, Roboto, Arial" font-size="18" fill="#0b6fab">BP</text>
+</svg>
