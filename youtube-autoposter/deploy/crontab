@@ -1,0 +1,2 @@
+# crontab -u www-data -e
+* * * * * cd /var/www/youtube-autoposter && php artisan schedule:run >> /dev/null 2>&1

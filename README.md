@@ -9,6 +9,9 @@
 
 A small Python utility to publish blog posts (single-file project).
 
+> **New:** [`youtube-autoposter/`](youtube-autoposter/README.md) is a Laravel app that
+> generates videos from topics, waits for your review, and schedules them on YouTube.
+
 ## What this project is
 
 This repository contains a simple script, `blog_publisher.py`, intended to help automate publishing blog posts. It is a minimal starter project and is suitable for local development and small-scale automation tasks.
